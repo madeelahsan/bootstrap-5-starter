@@ -9,6 +9,17 @@
 @import 'vendors/bootstrap/mixins';
 @import 'vendors/bootstrap/utilities';
 
+$include-column-box-sizing: true !default;
+
+@import 'vendors/bootstrap/mixins/breakpoints';
+@import 'vendors/bootstrap/mixins/container';
+@import 'vendors/bootstrap/mixins/grid';
+@import 'vendors/bootstrap/mixins/utilities';
+
+@import 'vendors/bootstrap/vendor/rfs';
+
+@import 'bootstrap-custom';
+
 // Layout & components
 @import 'vendors/bootstrap/root';
 @import 'vendors/bootstrap/reboot';
@@ -24,23 +35,23 @@
 @import 'vendors/bootstrap/button-group';
 @import 'vendors/bootstrap/nav';
 @import 'vendors/bootstrap/navbar';
-@import 'vendors/bootstrap/card';
-@import 'vendors/bootstrap/accordion';
-@import 'vendors/bootstrap/breadcrumb';
-@import 'vendors/bootstrap/pagination';
-@import 'vendors/bootstrap/badge';
-@import 'vendors/bootstrap/alert';
-@import 'vendors/bootstrap/progress';
+// @import 'vendors/bootstrap/card';
+// @import 'vendors/bootstrap/accordion';
+// @import 'vendors/bootstrap/breadcrumb';
+// @import 'vendors/bootstrap/pagination';
+// @import 'vendors/bootstrap/badge';
+// @import 'vendors/bootstrap/alert';
+// @import 'vendors/bootstrap/progress';
 @import 'vendors/bootstrap/list-group';
 @import 'vendors/bootstrap/close';
-@import 'vendors/bootstrap/toasts';
+// @import 'vendors/bootstrap/toasts';
 @import 'vendors/bootstrap/modal';
-@import 'vendors/bootstrap/tooltip';
-@import 'vendors/bootstrap/popover';
-@import 'vendors/bootstrap/carousel';
-@import 'vendors/bootstrap/spinners';
-@import 'vendors/bootstrap/offcanvas';
-@import 'vendors/bootstrap/placeholders';
+// @import 'vendors/bootstrap/tooltip';
+// @import 'vendors/bootstrap/popover';
+// @import 'vendors/bootstrap/carousel';
+// @import 'vendors/bootstrap/spinners';
+// @import 'vendors/bootstrap/offcanvas';
+// @import 'vendors/bootstrap/placeholders';
 
 // Helpers
 @import 'vendors/bootstrap/helpers';
